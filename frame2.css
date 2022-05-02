@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600|Poppins:400,500");
+
+.overlay {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay.animate-appear {
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+.overlay.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+}
+
+.component-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 372px;
+  min-width: 104px;
+  transform: rotate(-90deg);
+}
+
+.arrow-right {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  overflow: hidden;
+  padding: 0 14.5px;
+  width: 104px;
+}
+
+.vector {
+  height: 74px;
+  margin-left: 31px;
+  margin-top: -25.5px;
+  width: 2px;
+}
+
+.vector-1 {
+  align-self: center;
+  height: 9px;
+  margin-left: 26px;
+  transform: rotate(90deg);
+  width: 16px;
+}
+
+.component-1.component-1-1 {
+  margin-top: 108px;
+  transform: rotate(90deg);
+}
+
+.component-1.component-1-1 .vector-1 {
+  transform: rotate(-90deg);
+}
+
+.component-1-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  left: 203px;
+  min-width: 104px;
+  position: absolute;
+  top: 321px;
+}
+
+.arrow-right-1 {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  padding: 0 8.8px;
+  width: 104px;
+}
+
+.vector-container {
+  height: 16px;
+  position: relative;
+  width: 77px;
+}
+
+.vector-2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 74px;
+}
+
+.vector-3 {
+  height: 16px;
+  left: 68px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.page-1 {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  justify-content: flex-end;
+  min-width: 1440px;
+}
+
+.flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  min-height: 964px;
+  width: 152px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 936px;
+  position: relative;
+  width: 152px;
+}
+
+.sd {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-left: 8px;
+  min-height: 45px;
+}
+
+.follow-me {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  letter-spacing: 0.44px;
+  margin-top: 330px;
+  min-height: 33px;
+  min-width: 112px;
+}
+
+.flex-row {
+  align-items: center;
+  display: flex;
+  margin-top: 3px;
+  min-width: 112px;
+}
+
+.entypo-socialgithub-with-circle {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  margin-top: 1px;
+  padding: 0;
+  width: 20px;
+}
+
+.vector-4 {
+  height: 19px;
+  width: 19px;
+}
+
+.instagram {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  margin-left: 23px;
+  margin-top: 1px;
+  padding: 1px 1px;
+  width: 20px;
+}
+
+.vector-5 {
+  height: 18px;
+  width: 18px;
+}
+
+.linkedin-in {
+  align-items: flex-start;
+  display: flex;
+  height: 25px;
+  margin-left: 24px;
+  padding: 0px 1.1px;
+  width: 25px;
+}
+
+.vector-6 {
+  height: 20px;
+  width: 20px;
+}
+
+.overlap-group-container {
+  height: 1024px;
+  margin-left: 67px;
+  position: relative;
+  width: 1187px;
+}
+
+.overlap-group1 {
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1187px;
+}
+
+.x64000509-1 {
+  height: 1024px;
+  left: 631px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 556px;
+}
+
+.application-developer {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 317px;
+  width: 522px;
+}
+
+.title {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 384px;
+}
+
+.frame-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  left: 1067px;
+  min-height: 19px;
+  position: absolute;
+  top: 45px;
+  width: 40px;
+}
+
+.line-1 {
+  height: 5px;
+  margin-left: -0.5px;
+  margin-top: -2px;
+  width: 40px;
+}
+
+.line {
+  height: 5px;
+  margin-left: -0.49px;
+  margin-top: 4px;
+  width: 40px;
+}
+
+.overlap-group2 {
+  height: 352px;
+  left: 0;
+  position: absolute;
+  top: 541px;
+  width: 615px;
+}
+
+.hi-i-m-subasush-das {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 615px;
+}
+
+.more-about-me {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.75px;
+  position: absolute;
+  top: 314px;
+}
