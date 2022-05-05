@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600|Poppins:400,500");
+
+.page-1 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 29px 42px;
+  width: 1440px;
+}
+
+.flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 936px;
+  margin-top: 1px;
+  min-width: 826px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 936px;
+  width: 144px;
+}
+
+.sd {
+  align-self: flex-start;
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  min-height: 45px;
+}
+
+.component-1 {
+  height: 104px;
+  margin-right: 56px;
+  margin-top: 333px;
+  width: 24px;
+}
+
+.component-1-1 {
+  height: 104px;
+  margin-right: 56px;
+  margin-top: 28px;
+  width: 24px;
+}
+
+.follow-me {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  letter-spacing: 0.44px;
+  margin-top: 289px;
+  min-height: 33px;
+  min-width: 112px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 74px;
+  margin-left: 67px;
+  min-height: 576px;
+  width: 615px;
+}
+
+.overlap-group {
+  height: 195px;
+  position: relative;
+  width: 522px;
+}
+
+.stock-app {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 522px;
+}
+
+.title {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 67px;
+}
+
+.with-grow-investing {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 29px;
+  min-height: 199px;
+  width: 615px;
+}
+
+.flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 38px;
+  margin-top: 115px;
+  min-width: 307px;
+}
+
+.view-projects {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  letter-spacing: -0.75px;
+  min-height: 38px;
+  min-width: 186px;
+}
+
+.component-1-2 {
+  height: 24px;
+  margin-left: 17px;
+  margin-top: 2px;
+  width: 104px;
+}
+
+.flex-row-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 32px;
+  margin-top: 4px;
+  min-width: 112px;
+}
+
+.entypo-socialgithub-with-circle {
+  height: 20px;
+  margin-top: 1px;
+  width: 20px;
+}
+
+.icon-instagram {
+  height: 20px;
+  margin-left: 23px;
+  margin-top: 1px;
+  width: 20px;
+}
+
+.icon-linkedin {
+  height: 25px;
+  margin-left: 24px;
+  width: 25px;
+}
